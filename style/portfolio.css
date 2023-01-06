@@ -78,18 +78,73 @@ main {
 .about {
     margin-top: 130px;
     padding: 0 200px;
+    background-color: #FFF8F3;
+    padding: 90px 180px;
+    text-align: center;
 }
 
 .section-title {
-    text-align: center;
     font-weight: 700;
     font-size: 35px;
     margin-bottom: 30px;
+    text-align:center
 }
 
 .section-description {
-    text-align: center;
     font-size: 18px;
     color: #757575;
     margin-bottom: 30px;
+    text-align:center
+}
+
+/* about-info-container section style */
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about .info-title {
+    font-size: 20px;
+    color: #757575;
+}
+
+.about .info-description {
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
+}
+
+/* what I do style */
+
+.what-i-do {
+    margin-top: 130px;
+}
+
+.skill {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.skill-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.skill-description {
+    color: #757575;
+}
+
+/* resume style */
+.resume{
+    margin-top: 130px;
 }
