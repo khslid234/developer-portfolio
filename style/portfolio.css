@@ -1,6 +1,5 @@
 * {
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
 }
 
 .btn-primary {
@@ -90,6 +89,13 @@ main {
     text-align: center
 }
 
+.lucku-image{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
 .section-description {
     font-size: 18px;
     color: #757575;
@@ -118,7 +124,19 @@ main {
 /* what I do style */
 
 .what-i-do {
-    margin-top: 130px;
+    margin-top: 100px;
+}
+.section-title {
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+}
+
+.lucky-img-2{
+    width: 300px;
+    height: 500px;
+    margin-left: 400px;
+    margin-bottom: 35px;
 }
 
 .skill {
@@ -220,4 +238,13 @@ input{
 .contact a{
     text-decoration: none;
     justify-content: space-between;
+}
+
+.bottom-footer{
+    background-color: #FFC9A1;
+    padding: 20px 0;
+}
+.footer-title{
+    color: #ff6a00;
+    text-align: center;
 }
